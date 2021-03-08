@@ -26,12 +26,15 @@
             <h2 class="title">Contacts</h2>
             <ul class="contacts-list">
                 <li class="contacts-list__item">
+                    <span class="icon icon_location"></span>
                     <a href="https://yandex.by/maps/158/mogilev/?ll=30.330654%2C53.894548&pt=30.330654%2C53.894548&source=entity_search&z=11" class="contacts-list__link" target="_blank">Mogilev, Belarus</a>
                 </li>
                 <li class="contacts-list__item">
-                    <a href="" class="contacts-list__link" target="_blank">Phone: +375 44 7222622</a>
+                    <span class="icon icon_phone"></span>
+                    <span>Phone: +375 44 7222622</span>
                 </li>
                 <li class="contacts-list__item">
+                    <span class="icon icon_git"></span>
                     <a href="https://github.com/lam-ss" class="contacts-list__link" target="_blank">Github</a>
                 </li>
             </ul>
@@ -45,19 +48,12 @@
         <section class="education">
             <h2 class="title">Education</h2>
             <article class="university">
-                <h3 class="university__name"></h3>
-                <p class="university__end-year"><time datetime="2007">2007</time></p>
-                <p class="university__profession">I have graduated the Belarusian-Russian University degree in engineering.</p>
+                <h3 class="visually-hidden">University-1</h3>
+                <p class="university__profession">I have graduated from the Belarusian-Russian University degree in engineering at <time datetime="2007">2007</time>.</p>
             </article>
         </section>
         <section class="experiece">
             <h2 class="title">Experience</h2>
-            <article class="job">
-                <h3 class="job__posiiton"></h3>
-                <p class="job__time-period"></p>
-                <p class="job__ogranization"></p>
-                <p class="job__responsobilities"></p>
-            </article>
         </section>
         <section class="skills">
             <h2 class="title">Skills</h2>
@@ -71,7 +67,13 @@
         
 
         <footer class="footer">
-            2021 <a class="rss-link" href="https://rs.school/js/" target="_blank">https://rs.school/js/ <img class="rss-link__image" src="https://rs.school/images/rs_school_js.svg" alt="rss logo"></a>
+            <div class="footer__inner">
+                <div class="footer__links">
+                    
+                    <a class="rss-link" href="https://rs.school/js/" target="_blank"><img class="rss-link__image" src="https://rs.school/images/rs_school_js.svg" alt="rss logo"> https://rs.school/js/</a>
+                </div>
+                <time datetime="2021">2021</time>
+            </div>         
         </footer>
     </div>
 </body>
